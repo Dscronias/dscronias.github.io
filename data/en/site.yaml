@@ -1,0 +1,11 @@
+# Copyright Notice
+copyright: © 2021 Copyright Dimitri Scronias
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio, resume, personal blog of Dimitri Scronias, statistician, data scientist, PhD candidate
+
+customMenus:
+- name: LinkedIn
+  url: https://www.linkedin.com/in/dimitriscronias/
+- name: ResearchGate
+  url: https://www.researchgate.net/profile/Dimitri-Scronias

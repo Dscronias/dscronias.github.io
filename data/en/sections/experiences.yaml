@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+  template: sections/experiences.html
+
+# Your experiences
+experiences:
+- company:
+    name: Assistance Publique - Hôpitaux de Paris
+    url: "https://www.aphp.fr/"
+    location: Marseille, France
+    # company overview
+    overview: Involved in statistical studies on vaccine hesitancy, in collaboration with the main French regional and national actors in public health (ministère des Solidarités et de la Santé, DREES, ARS PACA, ORS PACA...), across 8 national and international surveys
+  positions:
+  - designation: Biostatistician
+    start: October 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: April 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Data quality control, verification of the usability of the data, the proper conduct of surveys, and the presence of outliers or missing data
+    - Creation of new quantitative indicators from the data (e.g. perceived risks of vaccines, trust in health authorities…)
+    - Development of survey analysis plans and statistical methodologies for scientific papers
+    - "Statistical analyses (using R, Stata, SAS): descriptive statistics, inferential statistics, hypothesis testing, Machine Learning…"
+    - "Communication of results via reports and data visualizations for various audiences: decision-makers, scientists, general population…"
+    - "Scientific valorisation: redaction of survey results and methodology for scientific papers to be published in peer-reviewed journals"
+
+- company:
+    name: Aix-Marseille School of Economics
+    url: "https://www.amse-aixmarseille.fr/en"
+    location: Marseille
+    overview: The Aix-Marseille School of Economics is a research unit in economics. I assisted a health economist working with the Observatoire Régional de la Santé PACA on a study among the elderly population.
+  positions:
+  - designation: Statistician (intern)
+    start: April 2019
+    end: September 2019
+    responsibilities:
+    - Data quality control, verification of the usability of the data, and the presence of outliers or missing data
+    - Creation of new quantitative indicators from the data
+    - "Statistical analyses (using Stata and SAS): descriptive statistics, inferential statistics, hypothesis testing…"
+    - Communication of results via reports and data visualizations
+
+- company:
+    name: Observatoire Régional de la Santé PACA
+    url: "http://www.orspaca.org/"
+    location: Marseille
+    overview: The Observatoire Régional de la Santé PACA is one of the 17 observatoires régionaux de santé in France. They gather health data about the population in the region and are active in scientific research in public health, notably about vaccine hesitancy. I was tasked with the statistical analysis of a regional survey among nurses on their practices and behaviors regarding vaccination.
+  positions:
+  - designation: Statistician (intern)
+    start: May 2018
+    end: July 2018
+    responsibilities:
+    - Data quality control, verification of the usability of the data, and the presence of outliers or missing data
+    - Creation of new quantitative indicators from the data (e.g. perceived risks of vaccines, trust in health authorities…)
+    - "Statistical analyses (using SAS and R): descriptive statistics, inferential statistics, hypothesis testing…"
+    - Communication of results via reports and data visualizations for various audiences
+    - "Scientific valorisation: redaction of survey results and methodology for a scientific paper to be published in a peer-reviewed journal"
