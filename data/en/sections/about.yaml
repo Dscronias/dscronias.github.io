@@ -14,7 +14,12 @@ designation: Data scientist
 #  url: "https://www.example.com"
 
 # a summary about you
-summary: 'Data analyst/scientist with a background in social sciences (economics & econometrics) and 3 years of experience in public health. I am looking for exciting projects where I can use my expertise in statistical analysis to its full extent.'
+summary: '
+Data analyst/scientist with a background in social sciences (economics & econometrics) and 3 years of experience in public health.
+
+
+I have worked as a statistician for the Southeastern Health Regional Observatory (ORS PACA) and the Greater Paris University Hospital (Assistance Publique - Hôpitaux de Paris), where I have co-authored multiple public health papers about vaccine hesitancy and Covid-19 for peer-reviewed journals and for the French Ministry of Health.
+'
 
 socialLinks:
 - name: Email
