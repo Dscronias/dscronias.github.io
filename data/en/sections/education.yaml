@@ -29,6 +29,9 @@ degrees:
   #   url: "#"
   # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
   #   url: "#"
+  description: "
+  Three-month course focused on Big Data, Machine Learning (supervised & unsupervised) and Natural Language Processing using Python.
+  "
 
 - name: Masters in Economics | Economic Policy Analysis
   icon: fa-university
@@ -48,7 +51,7 @@ degrees:
     courses:
     - name: Econometrics (panel data, time series)
     - name: Econometrics of public policies
-    - name: Health Economics
+    - name: Health economics
     - name: Development economics
     - name: Macroeconomics
     - name: Microeconomics
@@ -62,6 +65,9 @@ degrees:
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
+  description: "
+    Master programme in theoretical and applied economics. Highly focused on quantitative methods (econometrics) and public policies analysis & recommendation.
+  "
 - name: Bachelor of Business
   icon: fa-university
   timeframe: 2016–2017

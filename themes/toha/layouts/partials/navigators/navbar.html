@@ -7,7 +7,7 @@
   {{ $blogEnabled = true }}
 {{ end }}
 
-{{/* by default, don't use any logo */}}
+{{/* by default, dont use any logo */}}
 {{ $mainLogo := "" }}
 {{ $invertedLogo := "" }}
 
@@ -19,7 +19,7 @@
   {{ $invertedLogo = site.Params.logo.inverted }}
 {{ end }}
 
-{{/* resize the logos. don't resize svg because it is not supported */}}
+{{/* resize the logos. dont resize svg because it is not supported */}}
 {{ if $mainLogo }}
   {{ $mainLogo = resources.Get $mainLogo}}
   {{ if and $mainLogo (ne $mainLogo.MediaType.SubType "svg") }}
