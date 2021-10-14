@@ -107,6 +107,10 @@
   color: #ddd8d8;
 }
 
+.education-section .taken-courses th.course-name-header{
+  width: 50%;
+}
+
 .education-section .taken-courses .hidden-course {
   display: none;
   transition: all 1s ease-out;
