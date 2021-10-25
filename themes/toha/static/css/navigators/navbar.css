@@ -24,6 +24,7 @@
 
 .initial-navbar li a {
   color: #c0ccda;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .initial-navbar .navbar-nav .active,
@@ -51,6 +52,7 @@
   background-color: #222222;
   color: #1c2d41;
   transition: all 0.3s ease-out;
+  /* border-bottom: 2px solid#222222; */
 }
 
 .final-navbar .navbar-brand {
@@ -67,7 +69,7 @@
   color: #ddd8d8;
   font-weight: 500;
   transition: all 0.3s ease-out;
-  /*border-bottom: 2px solid#F9FAFC;*/
+  border-bottom: 2px solid rgba(34, 34, 34, 0);
 }
 
 .final-navbar .navbar-nav .active {
