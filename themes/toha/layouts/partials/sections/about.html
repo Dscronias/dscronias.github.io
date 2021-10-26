@@ -13,9 +13,9 @@
     <!-- summary -->
     <!-- takes up full section width if no badges/soft skills are specified -->
     {{ if or (.softSkills) (.badges) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-12"> {{ end }}
-      <h3 class="p-1">{{ $author.name }}</h3>
+      <h3 class="pt-1">{{ $author.name }}</h3>
       {{ if .designation }}
-      <h5 class="p-1">
+      <h5 class="pb-1">
         {{ .designation }}
         {{ if .company }}
         {{ i18n "at"}} <a href="{{ .company.url }}" title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>
