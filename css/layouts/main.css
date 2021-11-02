@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
   color: #f0ecec;
-  font-family: "JetBrains Mono"
+  font-family: "Fira Code"
 }
 
 strong {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .font-alt {
- font-family: "JetBrains Mono" 
+ font-family: "Fira Code" 
 }
 
 .nav-button {
