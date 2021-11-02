@@ -15,8 +15,10 @@ Yellow:  #FFC212
 
 body {
   background-color: #121212; /*f9fafc initially*/ 
-  font-family: "Fira Code";
+  font-family: "Sora"; /* Or Open Sans?*/
 }
+/* The font was also changed for: h1/h2/h3/h4/h5/h6 (below), the navbar (see navbar.css), and using the font-alt class below 
+(font-alt is used for timeframe in single-position.html (experience) and for the typing carousel) */
 
 h1,
 h2,
@@ -25,8 +27,8 @@ h4,
 h5,
 h6 {
   color: #f0ecec;
+  font-family: "JetBrains Mono"
 }
-
 
 strong {
   color: #f0ecec !important;
@@ -43,6 +45,10 @@ a {
 a:hover {
   color: #5cbd00;
   transition: all 0.3s ease-out;
+}
+
+.font-alt {
+ font-family: "JetBrains Mono" 
 }
 
 .nav-button {
