@@ -15,7 +15,8 @@ Yellow:  #FFC212
 
 body {
   background-color: #121212; /*f9fafc initially*/ 
-  font-family: "Sora"; /* Or Open Sans?*/
+  font-family: "Inter";
+  font-weight: 300
 }
 /* The font was also changed for: h1/h2/h3/h4/h5/h6 (below), the navbar (see navbar.css), and using the font-alt class below 
 (font-alt is used for timeframe in single-position.html (experience) and for the typing carousel) */
@@ -23,11 +24,17 @@ body {
 h1,
 h2,
 h3,
-h4,
+h4 {
+  color: #f0ecec;
+  font-family: "Fira Code";
+  font-weight: 400;
+}
+
 h5,
 h6 {
   color: #f0ecec;
-  font-family: "Fira Code"
+  font-family: "Fira Code";
+  font-weight: 400;
 }
 
 strong {
@@ -35,7 +42,7 @@ strong {
 }
 
 p {
-  color: #ddd8d8;
+  color: #d0d0d0;
 }
 
 a {
