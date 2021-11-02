@@ -23,7 +23,7 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Data quality control, verification of the usability of the data, the proper conduct of surveys, and the presence of outliers or missing data
-    - Creation of new quantitative indicators from the data (e.g. perceived risks of vaccines, trust in health authorities…)
+    - Creation of new quantitative indicators (e.g. perceived risks of vaccines, trust in health authorities…)
     - Development of survey analysis plans and statistical methodologies for scientific papers
     - "Statistical analyses (using R, Stata, SAS): descriptive statistics, inferential statistics, hypothesis testing, Machine Learning…"
     - "Communication of results via reports and data visualizations for various audiences: decision-makers, scientists, general population…"
@@ -33,27 +33,27 @@ experiences:
     name: Aix-Marseille School of Economics
     url: "https://www.amse-aixmarseille.fr/en"
     location: Marseille, France
-    overview: The Aix-Marseille School of Economics is a research unit in economics. I assisted a health economist working with the Observatoire Régional de la Santé PACA on a study among the elderly population.
+    overview: Assisted a health economist on a survey among the elderly population
   positions:
   - designation: Statistician (intern)
     timeframe: April 2019 – September 2019
     responsibilities:
-    - Data quality control, verification of the usability of the data, and the presence of outliers or missing data
-    - Creation of new quantitative indicators from the data
-    - "Statistical analyses (using Stata and SAS): descriptive statistics, inferential statistics, hypothesis testing…"
+    - Data quality control
+    - Creation of new quantitative indicators
+    - Statistical analyses with Stata & SAS
     - Communication of results via reports and data visualizations
 
 - company:
     name: Observatoire Régional de la Santé PACA
     url: "http://www.orspaca.org/"
     location: Marseille, France
-    overview: The Observatoire Régional de la Santé PACA is one of the 17 observatoires régionaux de santé in France. They gather health data about the population in the region and are active in scientific research in public health, notably about vaccine hesitancy. I was tasked with the statistical analysis of a regional survey among nurses on their practices and behaviors regarding vaccination.
+    overview: Tasked with the statistical analysis of a regional survey among nurses on their practices and behaviors regarding vaccination
   positions:
   - designation: Statistician (intern)
     timeframe: May 2018 – July 2018
     responsibilities:
-    - Data quality control, verification of the usability of the data, and the presence of outliers or missing data
-    - Creation of new quantitative indicators from the data (e.g. perceived risks of vaccines, trust in health authorities…)
-    - "Statistical analyses (using SAS and R): descriptive statistics, inferential statistics, hypothesis testing…"
+    - Data quality control
+    - Creation of new quantitative indicators
+    - Statistical analyses with SAS & R
     - Communication of results via reports and data visualizations for various audiences
-    - "Scientific valorisation: redaction of survey results and methodology for a scientific paper to be published in a peer-reviewed journal"
+    - Redaction of survey results and methodology for a scientific paper to be published in a peer-reviewed journal

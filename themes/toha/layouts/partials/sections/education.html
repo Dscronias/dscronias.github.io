@@ -26,23 +26,23 @@
                         <div class="degree-info card">
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
-                                    {{ if .institution.url }}
-                                        <h5><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h5>
-                                    {{ else }}
-                                        <h5>{{ .institution.name }}</h5>
-                                    {{ end }}
+                                    <h5>{{ .name }}</h5>
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">
                                     <h5>{{ .timeframe }}</h5>
                                 </div>
                             </div>
-                            <h6>{{ .name }}</h6>
+                            {{ if .institution.url }}
+                                <h6><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h6>
+                            {{ else }}
+                                <h6>{{ .institution.name }}</h6>
+                            {{ end }}
                             {{ if .grade }}
-                                <h6><span class="text-muted">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> {{ i18n "out_of"}} <span>{{ .grade.outOf }}</span></h6>
+                                <h6 class="text-muted">{{ .grade.scale }}: {{ .grade.achieved }}/{{ .grade.outOf }}</h6>
                             {{ end }}
                             <!-- Alternative to grade-->
                             {{ if .mention }}
-                                <h6><span class="text-muted">Distinction: </span><span>{{ .mention.achieved }}</span></h6>
+                                <h6><span class="text-muted">Distinction: </span>{{ .mention.achieved }}</h6>
                             {{ end }}
                             {{ if .publications }}
                                 <div class="publications">
@@ -59,7 +59,7 @@
                                 </div>
                             {{ end }}
                            {{ if .description }}
-                            <div class="description">
+                            <div class="description pt-1">
                                 <p>{{ .description | markdownify }}</p>
                             </div>
                             {{ end }}
