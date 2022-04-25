@@ -32,7 +32,7 @@
 .initial-navbar li a:hover {
   color: #f9fafc;
   transition: all 0.3s ease-out;
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 .navbar-collapse {
